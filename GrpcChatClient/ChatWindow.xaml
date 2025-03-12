@@ -1,0 +1,18 @@
+﻿<Window x:Class="GrpcChatClient.ChatWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GrpcChatClient"
+        mc:Ignorable="d"
+        Title="ChatWindow" Height="450" Width="800">
+    <Grid Background="{Binding WindowBackground}">
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Margin="10">
+            <TextBlock x:Name="txtUserInfo" FontSize="16" FontWeight="Bold" Foreground="White" TextAlignment="Center"/>
+        </StackPanel>
+        
+        <ListBox x:Name="lstMessages" Width="350" Height="250" VerticalAlignment="Top" Margin="20,40,20,0"/>
+        <TextBox x:Name="txtMessage" Width="250" Height="30" VerticalAlignment="Bottom" Margin="20"/>
+        <Button Content="Send" Click="BtnSend_Click" Width="100" Height="30" VerticalAlignment="Bottom" Margin="280,0,0,0"/>
+    </Grid>
+</Window>

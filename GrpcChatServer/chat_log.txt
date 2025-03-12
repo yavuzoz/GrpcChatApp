@@ -1,0 +1,24 @@
+2025-03-12 12:10:51 [Info] System: 1 joined the chat.
+2025-03-12 12:11:02 [Info] System: 2 joined the chat.
+2025-03-12 12:11:29 [Info] 1: hi, im 1
+2025-03-12 12:11:37 [Info] 2: hi, im 2
+2025-03-12 12:11:49 [Info] System: 1 left the chat.
+2025-03-12 12:11:57 [Info] System: 2 left the chat.
+2025-03-12 12:12:25 [Info] User2:  The server will restart soon!
+2025-03-12 12:12:55 [Info] System: User2 left the chat.
+2025-03-12 13:00:42 [Info] System: 1 joined the chat.
+2025-03-12 13:00:50 [Info] System: 2 joined the chat.
+2025-03-12 13:01:00 [Info] 1: hi, im 1
+2025-03-12 13:01:06 [Info] 2: hi, i m 2
+2025-03-12 13:01:25 [Info] System: 2 left the chat.
+2025-03-12 13:01:31 [Info] System: 1 left the chat.
+2025-03-12 13:01:53 [Info] User2:  The server will restart soon!
+2025-03-12 13:02:24 [Info] System: User1 left the chat.
+2025-03-12 13:02:37 [Warning] User1: Warning: The server will restart soon!
+2025-03-12 13:03:17 [Info] System: User1 joined the chat.
+2025-03-12 13:03:24 [Info] System: User1 joined the chat.
+2025-03-12 13:03:29 [Info] System: User1 joined the chat.
+2025-03-12 13:16:30 [Info] System: 1 joined the chat.
+2025-03-12 13:16:33 [Info] 1: 1
+2025-03-12 13:16:34 [Info] 1: 
+2025-03-12 13:16:55 [Info] System: 1 left the chat.

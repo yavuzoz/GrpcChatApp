@@ -1,0 +1,33 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "GrpcChatServer.Protos";
+
+package chat;
+
+import "google/protobuf/empty.proto";
+
+// gRPC Chat Service
+service ChatService {
+  rpc SendMessage (stream ChatMessage) returns (stream ChatMessage);
+  rpc UserStatusUpdate (UserStatus) returns (google.protobuf.Empty);
+}
+
+message UserStatus {
+  string username = 1;
+  bool isConnected = 2;
+}
+
+// Message typ Enum
+enum MessageType {
+  INFO = 0;
+  WARNING = 1;
+  ALERT = 2;
+}
+
+// Message Struct
+message ChatMessage {
+  string username = 1;
+  string text = 2;
+  MessageType messageType = 3;
+}
+
